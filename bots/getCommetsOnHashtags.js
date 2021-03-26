@@ -25,24 +25,24 @@ async function getCommentsOnHashtag(ig,hashtag){
     let ig = await login()
     //Define hashtags
     const hashtagsfood = [
-        "vegan",
-        "govegan",
-        "foodporn",
-        "foodgasm",
-        "foodie",
-        "cooking",
-        "cook",
-        "recip",
-        "yummy",
-        "delicious",
-        "instafood",
-        "nomnom",
-        "food"
+        "Shopee",
+        "Followers",
+        "Tokopedia",
+        "Daster",
+        "Pelangsing",
+        "Pelangsingherbal",
+        "Denimhead",
+        "Instaindo",
+        "Tiktok",
+        "Gojek",
+        "Grab",
+        "Piyama",
+        "Lebaran"
     ]
 
     for(let i = 0 ; i < hashtagsfood.length; i++){
         console.log("ACTUAL HASHTAG ---> " + hashtagsfood[i])
-        await getCommentsOnHashtag(ig,"vegan")
+        await getCommentsOnHashtag(ig,"1000 foll cuma 20rb. Sedia foll tokped , shopee n T1ktok jugaloh! Kepoin @followerss_21 ")
     }
 
 })();
